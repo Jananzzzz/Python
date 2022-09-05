@@ -1,2 +1,4 @@
 # Python
-For Python learning.
+
+**This is a repository for python learning.**
+
