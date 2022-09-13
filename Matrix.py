@@ -1,3 +1,4 @@
+from email import message
 from re import M
 import numpy as np
 
@@ -21,6 +22,11 @@ print(np.invert(0))                 # and a positive number x being inverted, th
 print(np.invert(-1))
 print(np.linalg.inv(matrix1))
  
+
+person = input("what is your name\n")
+message = "hello, {0}".format(person)
+print(message)
+
 
 
 
