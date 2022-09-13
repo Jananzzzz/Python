@@ -1,3 +1,6 @@
+from turtle import title
+
+
 complex_number = complex(2,3)
 print(complex_number)
 x1 = 3
@@ -119,8 +122,13 @@ person0 = {"name": "Janan Zhu", "age": 19, "title": "advanced data scientist"}
 person1 = dict(name = "Janan Zhu", age = 19, title = "advanced data scientist")
 print(person0)
 print(person1)
-
-
+# retrieve the data in a dictionary
+print(person0["title"])
+print(person1["name"])
+# we can retrieve keys, values and items in a dictionary
+print(person0.keys())
+print(person0.values())
+print(person0.items())
 
 
 
