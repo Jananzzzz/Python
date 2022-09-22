@@ -1,0 +1,22 @@
+command line:
+1. python -m venv virtualEnv
+2. . virtualEnv\scripts\activate       # only in windows command line
+3. pip install scrapy
+4. scrapy startproject postscrape
+5. cd postscrape
+6. new file in spiders named post_spider.py # this will be our main file 
+7. scrapy shell # into the shell
+8. fetch 'url you want to interogate'
+9. 200 reponse means you are succcess, 403 means website forbidden
+10. 
+
+
+
+the basic hierachy of a web scraper:
+1. url schduler # akin the cpu of a pc
+2. url manager
+3. url downloader
+4. url parser
+5. url application
+
+
